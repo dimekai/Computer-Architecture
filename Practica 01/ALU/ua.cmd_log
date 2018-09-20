@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/Laboratorio/Escritorio/ALU/ua.xst" -ofn "C:/Documents and Settings/Laboratorio/Escritorio/ALU/ua.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/Laboratorio/Escritorio/ALU/ua.xst" -ofn "C:/Documents and Settings/Laboratorio/Escritorio/ALU/ua.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RESTRICCIONES.ucf -p xc7a100t-csg324-2 "ua.ngc" ua.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ua_map.ncd ua.ngd ua.pcf 
+par -w -intstyle ise -ol high -mt off ua_map.ncd ua.ncd ua.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ua.twx ua.ncd -o ua.twr ua.pcf -ucf RESTRICCIONES.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RESTRICCIONES.ucf -p xc7a100t-csg324-2 "ua.ngc" ua.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ua_map.ncd ua.ngd ua.pcf 
+par -w -intstyle ise -ol high -mt off ua_map.ncd ua.ncd ua.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ua.twx ua.ncd -o ua.twr ua.pcf -ucf RESTRICCIONES.ucf 
+bitgen -intstyle ise -f ua.ut ua.ncd 

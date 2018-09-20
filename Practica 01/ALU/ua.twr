@@ -1,0 +1,135 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml ua.twx ua.ncd -o ua.twr ua.pcf -ucf RESTRICCIONES.ucf
+
+Design file:              ua.ncd
+Physical constraint file: ua.pcf
+Device,package,speed:     xc7a100t,csg324,C,-2 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |FLAGS<0>       |   11.015|
+A<0>           |FLAGS<1>       |   11.480|
+A<0>           |FLAGS<2>       |   10.777|
+A<0>           |FLAGS<3>       |   10.267|
+A<0>           |RES<0>         |    9.608|
+A<0>           |RES<1>         |   10.691|
+A<0>           |RES<2>         |   10.415|
+A<0>           |RES<3>         |   10.092|
+A<1>           |FLAGS<0>       |    9.355|
+A<1>           |FLAGS<1>       |    9.663|
+A<1>           |FLAGS<2>       |    9.117|
+A<1>           |FLAGS<3>       |    8.607|
+A<1>           |RES<1>         |    7.983|
+A<1>           |RES<2>         |    8.598|
+A<1>           |RES<3>         |    8.432|
+A<2>           |FLAGS<0>       |   10.193|
+A<2>           |FLAGS<1>       |   10.357|
+A<2>           |FLAGS<2>       |    9.955|
+A<2>           |FLAGS<3>       |    9.445|
+A<2>           |RES<2>         |    8.739|
+A<2>           |RES<3>         |    9.270|
+A<3>           |FLAGS<0>       |    8.955|
+A<3>           |FLAGS<1>       |    9.047|
+A<3>           |FLAGS<2>       |    8.645|
+A<3>           |FLAGS<3>       |    8.209|
+A<3>           |RES<3>         |    7.960|
+ALUOP<0>       |FLAGS<0>       |    8.113|
+ALUOP<0>       |FLAGS<1>       |    9.289|
+ALUOP<0>       |FLAGS<2>       |    8.694|
+ALUOP<0>       |FLAGS<3>       |    7.375|
+ALUOP<0>       |RES<0>         |    7.463|
+ALUOP<0>       |RES<1>         |    8.173|
+ALUOP<0>       |RES<2>         |    8.224|
+ALUOP<0>       |RES<3>         |    8.009|
+ALUOP<1>       |FLAGS<0>       |    8.609|
+ALUOP<1>       |FLAGS<1>       |    9.418|
+ALUOP<1>       |FLAGS<2>       |    8.619|
+ALUOP<1>       |FLAGS<3>       |    7.877|
+ALUOP<1>       |RES<0>         |    7.503|
+ALUOP<1>       |RES<1>         |    8.355|
+ALUOP<1>       |RES<2>         |    8.353|
+ALUOP<1>       |RES<3>         |    7.934|
+ALUOP<2>       |FLAGS<0>       |    9.929|
+ALUOP<2>       |FLAGS<1>       |   10.093|
+ALUOP<2>       |FLAGS<2>       |    9.691|
+ALUOP<2>       |FLAGS<3>       |    9.181|
+ALUOP<2>       |RES<0>         |    7.861|
+ALUOP<2>       |RES<1>         |    8.741|
+ALUOP<2>       |RES<2>         |    8.484|
+ALUOP<2>       |RES<3>         |    9.006|
+ALUOP<3>       |FLAGS<0>       |   10.599|
+ALUOP<3>       |FLAGS<1>       |   10.763|
+ALUOP<3>       |FLAGS<2>       |   10.361|
+ALUOP<3>       |FLAGS<3>       |    9.851|
+ALUOP<3>       |RES<0>         |    7.726|
+ALUOP<3>       |RES<1>         |    9.047|
+ALUOP<3>       |RES<2>         |    9.145|
+ALUOP<3>       |RES<3>         |    9.676|
+B<0>           |FLAGS<0>       |   11.321|
+B<0>           |FLAGS<1>       |   11.485|
+B<0>           |FLAGS<2>       |   11.083|
+B<0>           |FLAGS<3>       |   10.573|
+B<0>           |RES<0>         |    9.344|
+B<0>           |RES<1>         |   10.267|
+B<0>           |RES<2>         |    9.971|
+B<0>           |RES<3>         |   10.398|
+B<1>           |FLAGS<0>       |   11.639|
+B<1>           |FLAGS<1>       |   11.803|
+B<1>           |FLAGS<2>       |   11.401|
+B<1>           |FLAGS<3>       |   10.891|
+B<1>           |RES<1>         |   10.451|
+B<1>           |RES<2>         |   10.065|
+B<1>           |RES<3>         |   10.716|
+B<2>           |FLAGS<0>       |    9.460|
+B<2>           |FLAGS<1>       |    9.624|
+B<2>           |FLAGS<2>       |    9.222|
+B<2>           |FLAGS<3>       |    8.712|
+B<2>           |RES<2>         |    7.759|
+B<2>           |RES<3>         |    8.537|
+B<3>           |FLAGS<0>       |    9.718|
+B<3>           |FLAGS<1>       |   10.078|
+B<3>           |FLAGS<2>       |    9.676|
+B<3>           |FLAGS<3>       |    8.986|
+B<3>           |RES<3>         |    8.991|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 19 11:28:07 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 367 MB
+
+
+
