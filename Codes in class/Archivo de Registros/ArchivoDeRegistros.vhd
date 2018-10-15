@@ -25,7 +25,7 @@ ARCHITECTURE behaviour OF TB_ArchivoDeRegistros IS
 		DINOUT1	: INOUT STD_LOGIC_VECTOR( 15 DOWNTO 0);
 		DOUT2	: OUT STD_LOGIC_VECTOR( 15 DOWNTO 0);
 		SHE	: IN STD_LOGIC;  -- SHIFT ENABLE
-		DIN	: INOUT STD_LOGIC_VECTOR( 15 DOWNTO 0);
+		DIN	: INOUT STD_LOGIC_VECTOR( 15 DOWNTO 0)
 	);
 	END COMPONENT;
 	
@@ -53,6 +53,7 @@ ARCHITECTURE behaviour OF TB_ArchivoDeRegistros IS
 	
 	--CLOCK : Se debe definir el tiempo por cada ciclo
 	CONSTANT CLK_period : TIME := 10ns;
+	
 	
 	
 	
