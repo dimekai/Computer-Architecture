@@ -27,8 +27,8 @@ ARCHITECTURE BEHAVIOUR OF BARREL_SHIFTER IS
 				FOR	I IN 0 TO 2 LOOP
 					FOR J IN 7 DOWNTO 0 LOOP
 						IF( SHIFT(I) = '1' ) THEN
-							INDICE := J - 2**I ;	-- J + 2**I
-							IF( INDICE < 0 ) THEN	--> 7
+							INDICE := J - 2**I ;	
+							IF( INDICE < 0 ) THEN	
 								SHIFT_DATA( J ) := '0';
 							ELSE
 								SHIFT_DATA( J ) := SHIFT_DATA(INDICE);
@@ -43,8 +43,8 @@ ARCHITECTURE BEHAVIOUR OF BARREL_SHIFTER IS
 				FOR	I IN 0 TO 2 LOOP
 					FOR J IN 0 TO 7 LOOP
 						IF( SHIFT(I) = '1' ) THEN
-							INDICE := J + 2**I ;	-- J + 2**I
-							IF( INDICE > 7 ) THEN	--> 7
+							INDICE := J + 2**I ;	
+							IF( INDICE > 7 ) THEN	
 								SHIFT_DATA( J ) := '0';
 							ELSE
 								SHIFT_DATA( J ) := SHIFT_DATA(INDICE);
