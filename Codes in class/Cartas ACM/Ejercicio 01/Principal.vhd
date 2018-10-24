@@ -27,8 +27,26 @@ architecture PROGRAMA OF PRINCIPAL is
         SIGNAL LB : STD_LOGIC;
         SIGNAL QB : STD_LOGIC_VECTOR (3 DOWNTO 0);
     
+    -- ESTAS SEÑALES SON DEL CONVERTIDOR
+        SIGNAL QBCD : STD_LOGIC_VECTOR(6 DOWNTO 0);
     
     BEGIN
         --COMPONENTE DE CONTADOOR, 0->D->X"0"
-        CONTB : CONTADOR PORT MAP( CLK, CLR, IB, LB, X"0", QB);
+        -- Notacion posicional: En el mismo orden que la entidad del componente
+        -- GENERIC MAP, nos sirve para reasignar y sustituir el valor del generic
+        --              para que el componente lo use de manera adecuada: ESTO ES
+        --              PARAMETRIZACION DE COMPONENTES 
+        CONTB : CONTADOR GENERIC MAP(8) PORT MAP( CLK, CLR, IB, LB, X"0", QB); -- Notacion posicional
+        --  CONTB : CONTADOR GENERIC MAP( 
+        --               N => 8
+        --          )
+        --  PORT MAP( CLK, CLR, IB, LB, X"0", QB); -- Notacion posicional
+
+        --Notacion nominal: Indicamos cual es la señal del componente
+        --                  con cual la voy a conectar, con =>
+        CONV_COD : CONVERTIDOR PORT MAP(
+            BCD => QB, 
+            SEG => QBCD
+        );
+
     END PROGRAMA;
