@@ -1,0 +1,24 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Dec 07 13:13:32 2018
+
+drc -z PROCESADOR.ncd PROCESADOR.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <ARCH_REGISTROS/Mram_MEM12_RAMD_D1_O>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ARCH_REGISTROS/Mram_MEM3_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ARCH_REGISTROS/Mram_MEM11_RAMD_D1_O>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <STACK/Mram_reg2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <STACK/Mram_reg1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ARCH_REGISTROS/Mram_MEM2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 7 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

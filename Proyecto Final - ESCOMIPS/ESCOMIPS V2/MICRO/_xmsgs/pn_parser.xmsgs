@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/ARCHIVO_REGISTROS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/CONDICION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/CONTROL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/DIVISOR_FRECUENCIA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/ESTADO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/FUNCION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/INSTRUCCION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/MEMORIA_DATOS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/MEMORIA_PROGRAMA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/NIVEL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/OPERACION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/PILA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/PRINCIPAL_CONTROL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/PRINCIPAL_ESCOMIPS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/PaqueteControl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2/MICRO/PaqueteEscomips.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
