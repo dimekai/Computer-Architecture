@@ -1,0 +1,52 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/aiura_isim_beh.exe" -prj "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/aiura_beh.prj" "work.aiura" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/PaqueteControl.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/OPERACION.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/NIVEL.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/INSTRUCCION.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/FUNCION.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/ESTADO.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/CONDICION.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/PRINCIPAL_CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/PILA.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/PaqueteEscomips.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/MEMORIA_PROGRAMA.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/MEMORIA_DATOS.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/ARCHIVO_REGISTROS.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/PRINCIPAL_ESCOMIPS.vhd" into library work
+Parsing VHDL file "C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/aiura.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package paquetecontrol
+Compiling package paqueteescomips
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture memp of entity MEMORIA_PROGRAMA [memoria_programa_default]
+Compiling architecture programa of entity PILA [pila_default]
+Compiling architecture decodificador of entity INSTRUCCION [instruccion_default]
+Compiling architecture detector of entity NIVEL [nivel_default]
+Compiling architecture memory of entity FUNCION [\FUNCION(4,20)\]
+Compiling architecture memory of entity OPERACION [\OPERACION(5,20)\]
+Compiling architecture bloque of entity CONDICION [condicion_default]
+Compiling architecture unidad of entity CONTROL [control_default]
+Compiling architecture registro of entity ESTADO [estado_default]
+Compiling architecture behavioral of entity PRINCIPAL_CONTROL [principal_control_default]
+Compiling architecture registros of entity ARCHIVO_REGISTROS [\ARCHIVO_REGISTROS(4,16)\]
+Compiling architecture ua of entity ALU [\ALU(16)\]
+Compiling architecture ramd of entity MEMORIA_DATOS [\MEMORIA_DATOS(16,16)\]
+Compiling architecture behavioral of entity PROCESADOR [procesador_default]
+Compiling architecture behavior of entity aiura
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\aiura_isim_beh.exe.sim\libPortability.dll".
+Compiled 35 VHDL Units
+Built simulation executable C:/Users/kaimo/Documents/ESCOM/6o Semestre/03 ARQUITECTURA DE COMPUTADORAS/ESCOMIPS/ESCOMIPS V2.5 Simulacion/MICRO/aiura_isim_beh.exe
+Fuse Memory Usage: 40124 KB
+Fuse CPU Usage: 1437 ms
