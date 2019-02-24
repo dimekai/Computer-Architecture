@@ -7,6 +7,7 @@ Some of modules of the ESCOMIPS microprocessor are:
 - Program Memory
 - ALU
 - Unit Control
+- File Register
 
 ## The architecture of the ESCOMIPS microprocessor is shown below.
 ![image](https://user-images.githubusercontent.com/22998708/53304792-10f38280-383f-11e9-93b5-c4380c3744a9.png)
